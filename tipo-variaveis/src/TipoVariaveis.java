@@ -1,5 +1,14 @@
 public class TipoVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        int a,b;
+
+        a = 5;
+        b = 6;
+
+        String resultado = a==b ? "verdadeiro" : "falso";
+        System.out.println(resultado);
+
+
     }
 }
